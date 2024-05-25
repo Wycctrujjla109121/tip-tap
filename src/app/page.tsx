@@ -1,5 +1,5 @@
 import { MantineProvider, createTheme } from '@mantine/core';
-import { RichTextEditorBoard } from './modules';
+import { CompareTextEditor } from './modules';
 import s from './page.module.scss'
 
 const theme = createTheme({
@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <main className={s.main}>
       <MantineProvider theme={theme}>
-        <RichTextEditorBoard />
+        <CompareTextEditor />
       </MantineProvider>
     </main>
   );

@@ -1,0 +1,1 @@
+export { CompareTextEditor } from './CompareTextEditor'
